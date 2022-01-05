@@ -1,0 +1,120 @@
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	opacity: 0;
+}
+
+.container {
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	border: 2px solid rgb(173, 173, 173);
+	-webkit-box-shadow: 2px 13px 22px 3px rgba(0, 0, 0, 0.62);
+	-moz-box-shadow: 2px 13px 22px 3px rgba(0, 0, 0, 0.62);
+	box-shadow: 2px 13px 22px 3px rgba(0, 0, 0, 0.62);
+	padding: 3rem 4rem;
+}
+
+h1 {
+	padding: auto auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 3.0em;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 5px;
+	font-weight: 100;
+	text-transform: lowercase;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.0em;
+}
+
+.landing {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.splash-image {
+	width: 70%;
+}
+
+#start-btn:hover,
+#start-btn:focus {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 800px;
+}
+
+.quiz-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 15px 30px;
+	size: 2.0em;
+	background-color: peachpuff;
+	font-family: 'Inter', sans-serif;
+	transition: opacity 0.3s;
+}
+
+#submit-btn:hover,
+#submit-btn:focus {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.tenor-gif-embed {
+	display: block;
+}
+
+.tenor-gif {
+	width: 300px;
+	display: block;
+	padding: 50px 0px;
+}
+
+input[type="radio"] {
+	margin-bottom: 15px;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.75em;
+	color: black;
+}
+
+.finalMessage {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+
+a {
+	color: black;
+}
