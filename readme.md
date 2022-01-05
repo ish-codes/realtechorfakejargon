@@ -5,4 +5,4 @@ I created this while taking my part-time JS course at Juno. Just a simple quiz a
 ### Credits
 - GIFs used are from Tenor - https://tenor.com/
 - Alerts are from sweetalert2 - https://sweetalert2.github.io/
-- Fonts are from Google Fonts# realtechorfakejargon
+- Fonts are from Google Fonts
